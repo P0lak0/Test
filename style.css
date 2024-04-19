@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    font-family: "Press Start 2P", system-ui;
+      background-color: black;
+      color: green;
+      
+  }
+  #content1{
+    font-size: 150%;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height : 1.5;
+  }
+  button{
+    font-weight:700;
+    background-color: black;
+    border-radius: 0px;
+    border: 0px;
+    color: green;
+    padding: 10px;
+  }
+  button:hover{
+    background-color: green;
+    color: black;
+  }
+
+  h1{
+    position: fixed;
+    background-color: green;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    z-index: 50;
+  }
+  #status{
+    position: fixed;
+    background-color: green;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    /*display: flex;
+    flex-direction: raw;
+    justify-content: space-around;*/
+    padding: 10px;
+    z-index: 50;
+    bottom: 0px;
+  }
+  #line{
+    background-color: green;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-around;
+  }
+  #st{
+    /*display: flex;
+    flex-direction: raw;
+    justify-content: space-around;*/
+    background-color: green;
+    color: black;
+    padding: 5px;
+
+  }
+  /*#startBlock{
+    margin-top: 70px;
+  }*/
+  #viewCoin{
+    background-color: green;
+    color: black;
+    padding: 5px;
+  }
+  #select{
+    background-color: black;
+    color: green;
+    padding: 5px;
+  }
+  #select:hover{
+    background-color: green;
+    color: black;
+  }
